@@ -1,10 +1,24 @@
-let numeros = [1,2,9,7,6,4,10];
+let jogo = {
+    nome: "GTA",
+    anodelancamento: 2007,
+    preco: 50.50,
+    desenvolvedora: "Rockstar Games",
+    estilo: "RPG",
+    plataforma: "PC",
 
-console.log(numeros[3]);
-
-const arraynumeros = [1, 7, 8, 2, 4, 6, 9];
-let concatenacao="";
-
-for (let i=0; i < 7 ;i=i+1 ){
-    console.log(i + " -> " + arraynumeros[i]);
 }
+console.log(jogo);
+
+let filme = {
+titulo: "Avatar",
+anodeLancamento: 2009,
+preco: 300,
+genero: {
+    nome: "Drama",
+    subgenero: "Sci-Fi",
+},
+diretor: "James Cameron",
+}
+
+console.log(filme);
+
