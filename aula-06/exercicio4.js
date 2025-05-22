@@ -3,7 +3,8 @@ const prompt = require("prompt-sync")();
 let carro = {
     marca: "fiat",
     modelo: "uno",
-    ano: 2010
+    ano: 2010,
+    caracteristica: ["escada[assaasasasasasasasasasasasasassasasasasasasassaasa]"[aassasss[asasasasasas]]]
 }
 
 carro.cor= "azul";
